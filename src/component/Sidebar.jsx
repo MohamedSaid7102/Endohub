@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Sidebar = () => {
+export const Sidebar = ({ showSidebar }) => {
   return (
     <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
       <div className="brand-logo">
