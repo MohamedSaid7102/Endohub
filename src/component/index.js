@@ -1,3 +1,4 @@
 import { ColorSwitcher } from './common/ColorSwitcher'
+import { Sidebar } from './Sidebar'
 
-export { ColorSwitcher }
+export { ColorSwitcher, Sidebar }

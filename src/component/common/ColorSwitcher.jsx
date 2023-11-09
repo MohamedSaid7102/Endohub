@@ -7,7 +7,7 @@ export const ColorSwitcher = () => {
   const toggleShowSideBar = () => { setShowSideBar(oldState => !oldState) }
 
   const updateTheme = (newTheme) => {
-  document.body.classList = `bg-theme pace-done bg-${newTheme}`;
+    document.body.classList = `bg-theme pace-done bg-${newTheme}`;
   }
 
   return (

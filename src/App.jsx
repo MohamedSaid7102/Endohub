@@ -1,11 +1,12 @@
 import './App.css'
-import { ColorSwitcher } from './component'
+import { ColorSwitcher, Sidebar } from './component'
 
 function App() {
 
   return (
     <>
       <ColorSwitcher />
+      <Sidebar />
     </>
   )
 }
