@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { ColorSwitcher, Sidebar, StatsCard, TopbarHeader } from './component'
+import { ColorSwitcher, LoginPage, Sidebar, SignUpPage, StatsCard, TopbarHeader } from './component'
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(true);
@@ -17,6 +17,8 @@ function App() {
         <div class="content-wrapper">
           <div class="container-fluid">
             <StatsCard />
+            <LoginPage />
+            <SignUpPage />
           </div>
         </div>
       </div>
