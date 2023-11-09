@@ -59,7 +59,17 @@ body {
     font-size: 15px;
     color: rgba(255,255,255,.85);
     letter-spacing: 0.5px;
+
+    display: flex !important;
+    justify-content: stretch !important;
+    align-items: flex-start !important;
 }
+
+#root {
+  margin: 0 !important;
+  flex: 1;
+}
+
 [tabindex="-1"]:focus {
 	outline: 0!important
 }

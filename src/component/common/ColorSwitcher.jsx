@@ -11,7 +11,7 @@ export const ColorSwitcher = () => {
   }
 
   return (
-    <div className={`right-sidebar ${showSideBar && 'right-toggled'}`}>
+    <div className={`right-sidebar ${showSideBar && 'right-toggled'}`} style={{ zIndex: 1000 }}>
       <div className="switcher-icon" onClick={toggleShowSideBar}>
         <i className="zmdi zmdi-settings zmdi-hc-spin"></i>
       </div>
